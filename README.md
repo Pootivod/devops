@@ -5,4 +5,5 @@
 ##Installing
 
 ```bash
-docker build
+docker-compose up --build
+docker compose run --rm --service-ports app
