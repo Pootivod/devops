@@ -2,7 +2,7 @@
 
 Проект с целью потренировать devops инструменты
 
-##Installing
+## Installing
 
 ```bash
 docker-compose up --build
