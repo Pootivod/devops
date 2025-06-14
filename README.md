@@ -1,9 +1,18 @@
 # DevOps
 
-Проект с целью потренировать devops инструменты
+Little windows on tkInter
 
 ## Installing
 
+Install VcXsrv
+https://sourceforge.net/projects/vcxsrv/
+
 ```bash
-docker-compose up --build
-docker compose run --rm --service-ports app
+docker build devops-app .
+```
+## Running
+
+Run VcXsrv 
+
+```bash
+winpty docker run -it --rm -e DISPLAY=host.docker.internal:0.0 devops-app
