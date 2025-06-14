@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    build: DockerFile
     volumes:
       - .:/app
     working_dir: /app
