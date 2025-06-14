@@ -15,4 +15,4 @@ docker build devops-app .
 Run VcXsrv 
 
 ```bash
-winpty docker run -it --rm -e DISPLAY=host.docker.internal:0.0 devops-app
+docker run -it --rm -e DISPLAY=host.docker.internal:0.0 devops-app
